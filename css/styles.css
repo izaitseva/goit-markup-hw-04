@@ -44,7 +44,7 @@ h2 {
     font-size: 26px;
     letter-spacing: 0.03em;
     color: #2196F3;
-    padding-right: 94px;
+    margin-right: 94px;
 }
 
 .logo-header {
@@ -272,6 +272,7 @@ h2 {
 
 .team-names {
     padding-top: 30px;
+    margin-bottom: 16px;
 }
 
 .team-job h3 {
@@ -347,14 +348,15 @@ h2 {
 
 .client-flex {
     display: flex;
-    justify-content: center;
     gap: 30px;
 }
 
 .client-border {
+    
+}
+
+.clients-link {
     display: flex;
-    justify-content: center;
-    align-items: center;
     width: 170px;
     height: 92px;
     border: 1px solid #AFB1B8;
@@ -365,13 +367,15 @@ h2 {
     fill: #AFB1B8;
 }
 
-.client-border:hover,
-.client-border:focus {
-    border: 1px solid #2196F3;
+.clients-link:hover,
+.clients-link:focus {
+    border-color:#2196F3;
 }
-
-.client-border:hover .clients-svg,
-.client-border:focus .clients-svg {
+.client-flex a:focus {
+    border-color:#2196F3;   
+}
+.clients-link:hover .clients-svg,
+.clients-link:focus .clients-svg {
     fill: #2196F3;
 }
 
@@ -410,7 +414,7 @@ h2 {
 
 .footer-container {
     display: flex;
-    gap: 70px;
+    margin-right: 70px;
 }
 
 .footer h3 {
